@@ -4,8 +4,8 @@ echo "Bem-vindo(a) ao\t Screen Match ✨\n"
 
 
 $nomeFilme = "Top Gun - Maverick";
-$anoLancamento = $argv[1]; # Entrada de Dados do primeiro parametro da linha de comando
-$anoLancamento = $argv[1] ?? 2022; # Operador de colecência nula, se o usuário não informar nada, ou seja o argumento for nulo, então :
+$anoLancamento = $argv[1];
+$anoLancamento = $argv[1] ?? 2022; 
 $somaDeNotas = 9;
 $somaDeNotas += 6;
 $somaDeNotas += 8;
